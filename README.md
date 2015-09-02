@@ -10,7 +10,9 @@ See `src/cljs/hello_world/hello.cljs` for details.
 
 One of the things this example illustrates, apparently, is that using
 d3.js from Clojurescript is not much more difficult than using it from
-Javascript.  If you like Clojure, maybe it's easier.
+Javascript.  And if you like Clojure, maybe it's easier.  (However, you
+will not be able to avoid studying the use of d3.js in Javascript to use
+this strategy.)
 
 #### Basic usage:
 
