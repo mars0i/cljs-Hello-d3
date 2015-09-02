@@ -20,10 +20,19 @@ Open `resources/public/index.html` in a browser.
 Run `lein cljsbuild auto` at a prompt.  
 Refresh `index.html` in the browser.
 
+This will display three overlapping circles that darken upon rollover,
+followed (to the right or below) by a sequence of letters that's
+periodically modified (based on http://bl.ocks.org/mbostock/3808218 ).
+
 #### source files:
 
 `resources/public/index.html`  
 `src/cljs/hello_world/hello.cljs`
 
-(Running `lein cljsbuild auto` will regenerate `resources/public/hello.js`
-from `hello.cljs` whenever the latter is changed.)
+`hello.cljs` includes comments that no experienced Clojurescript
+programmer would include, but that might be helpful to someone new to
+Clojurescript though experienced with Clojure.
+
+Note that running `lein cljsbuild auto` will regenerate
+`resources/public/hello.js` from `hello.cljs` whenever the latter is
+changed.
