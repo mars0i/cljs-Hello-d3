@@ -30,8 +30,8 @@ periodically modified.
 `src/cljs/hello_world/hello.cljs`
 
 `hello.cljs` includes comments that no experienced Clojurescript
-programmer would include, but that might be helpful to someone new to
-Clojurescript though experienced with Clojure.
+programmer would include, but which might be helpful to someone new to
+Clojurescript (who is perhaps experienced with Clojure).
 
 Note that running `lein cljsbuild auto` will regenerate
 `resources/public/hello.js` from `hello.cljs` whenever the latter is
