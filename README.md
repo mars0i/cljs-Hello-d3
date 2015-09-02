@@ -22,7 +22,7 @@ Refresh `index.html` in the browser.
 
 This will display three overlapping circles that darken upon rollover,
 followed (to the right or below) by a sequence of letters that's
-periodically modified (based on http://bl.ocks.org/mbostock/3808218 ).
+periodically modified.
 
 #### source files:
 
